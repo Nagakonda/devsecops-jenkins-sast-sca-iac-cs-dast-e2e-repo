@@ -43,7 +43,7 @@ pipeline {
     }
     stage('RunDASTUsingZAP') {
       steps {
-        bat("C:\Users\konda\Downloads\zap\ZAP_2.13.0_Crossplatform\zap -port 9393 -cmd -quickurl https://www.example.com -quickprogress -quickout C:\Users\konda\Downloads\zap\ZAP_2.13.0_Crossplatform\ZAP_2.13.0\Output.html")
+        bat("C:\\Users\\konda\\Downloads\\zap\\ZAP_2.13.0_Crossplatform\\ZAP_2.13.0\\zap -port 9393 -cmd -quickurl https://www.example.com -quickprogress -quickout C:\\Users\\konda\\Downloads\\zap\\ZAP_2.13.0_Crossplatform\\ZAP_2.13.0\\Output.html")
       }
     }
 
